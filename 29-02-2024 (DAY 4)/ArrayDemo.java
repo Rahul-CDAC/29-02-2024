@@ -1,0 +1,41 @@
+class ArrayDemo{
+
+public static void main(String args[]){
+
+int aa=10;
+//int i=11, j=111;
+//int a[] = {10,20,30};
+//int []a = {10,20,30, 105, 'r'};
+//float f[] = {10.0f,20.0f,30.0f};
+
+//System.out.println(aa);
+//System.out.println(a[1]);
+//System.out.println(a[4]);
+//System.out.println(f[0]);
+
+int a[] = new int[5];
+/*
+a[0]=10;
+a[1]=20;
+a[2]=30;
+a[3]=40;
+a[4]=50;
+a[5]=60;
+
+*/
+/* int count=0;
+for(int i=0; i<5; i++ ){
+   a[i]=count++;
+
+*/
+for(int i=0; i<5; i++ ){
+   a[i]=10;
+}
+for(int i=0; i<5; i++ ){
+System.out.println(a[1]);
+}
+
+//System.out.println(a[1]);
+
+}
+}
